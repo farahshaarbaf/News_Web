@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New_Web", "New_Web\New_Web.csproj", "{F399A2AC-2A77-49E2-A8FF-9C1113F6FFB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datalayer", "Datalayer\Datalayer.csproj", "{FC7F7BAB-AA63-4CB1-90CB-7D5253D6190B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F399A2AC-2A77-49E2-A8FF-9C1113F6FFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F399A2AC-2A77-49E2-A8FF-9C1113F6FFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F399A2AC-2A77-49E2-A8FF-9C1113F6FFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F399A2AC-2A77-49E2-A8FF-9C1113F6FFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7F7BAB-AA63-4CB1-90CB-7D5253D6190B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7F7BAB-AA63-4CB1-90CB-7D5253D6190B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7F7BAB-AA63-4CB1-90CB-7D5253D6190B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7F7BAB-AA63-4CB1-90CB-7D5253D6190B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
