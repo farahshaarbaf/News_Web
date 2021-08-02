@@ -225,37 +225,45 @@
                                     </nav>
                                 </div>
                             </div>
+
                             <div class="col-lg-2 col-md-2 col-sm-2 text-right position-static">
                                 <div class="header-action-item on-mobile-fixed">
-                                    <ul>
+                                    <ul> 
                                         <li>
-                                            <form id="top-search-form" class="header-search-dark">
-                                                <input type="text" class="search-input" placeholder="جستجو ..." required="" style="display: none;">
-                                                <button class="search-button">
-                                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                                </button>
+                                            @*<form action="/Search" method="get" id="top-search-form" class="form-inline ml-auto">
+                                                     <div class="md-form my-0">
+                                                                  <input name="q" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                                                         </div>
+                                                                   </form>*@
+
+                                          <form action="/Search" method="get" id="top-search-form" class="header-search-dark">
+                                                     <input type="text" name="q" class="search-input" placeholder="جستجو ..." required="" style="display: none;">
+                                                     <button type="button" action="/Search" method="get" class="search-button">
+                                                             <i class="fa fa-search" aria-hidden="true"></i>
+                                                      </button>
                                             </form>
+
                                         </li>
-                                        <li class="d-none d-sm-block d-md-block d-lg-none">
-                                            <button type="button" class="login-btn" data-toggle="modal" data-target="#myModal">
-                                                <i class="fa fa-user" aria-hidden="true"></i>ورود
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <div id="side-menu-trigger" class="offcanvas-menu-btn offcanvas-btn-repoint">
-                                                <a href="#" class="menu-bar">
-                                                    <span></span>
-                                                    <span></span>
-                                                    <span></span>
-                                                </a>
-                                                <a href="#" class="menu-times close">
-                                                    <span></span>
-                                                    <span></span>
-                                                </a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <li class="d-none d-sm-block d-md-block d-lg-none">
+                                    <button type="button" class="login-btn" data-toggle="modal" data-target="#myModal">
+                                        <i class="fa fa-user" aria-hidden="true"></i>ورود
+                                    </button>
+                                </li>
+                                <li>
+                                    <div id="side-menu-trigger" class="offcanvas-menu-btn offcanvas-btn-repoint">
+                                        <a href="#" class="menu-bar">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </a>
+                                        <a href="#" class="menu-times close">
+                                            <span></span>
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </li>
+                                </ul>
+                            </div>
                             </div>
                         </div>
                     </div>

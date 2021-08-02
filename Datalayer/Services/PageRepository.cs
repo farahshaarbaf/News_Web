@@ -108,10 +108,7 @@ namespace Datalayer
         }
 
 
-        public void Dispose()
-        {
-            db.Dispose();
-        }
+      
 
         public IEnumerable<Page> FooterGallery(int take = 6)
         {
@@ -152,6 +149,19 @@ namespace Datalayer
         {
             return db.Pages.Where(p => p.GroupID == groupId).Take(take);
 
+        }
+        public IEnumerable<Page> SearchPage(string search)
+        {
+            return
+                db.Pages.Where(
+                    p =>
+                        p.Title.Contains(search) || p.ShortDescription.Contains(search) ||
+                        p.Text.Contains(search)).Distinct();
+        }
+
+        public void Dispose()
+        {
+            db.Dispose();
         }
     } 
 }

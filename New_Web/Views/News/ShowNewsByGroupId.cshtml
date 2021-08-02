@@ -42,8 +42,8 @@
                                 <h3 class="title-medium-dark size-c26">
                                     <a href="single-news-1.html">@item.ShortDescription</a>
                                 </h3>
-                                <p>@item.Text.LastIndexOf('.')</p>
-                                <a href="/News/@item.GroupID/@item.Title" class="btn-ftf-dtp-52">بیشتر بخوانید</a>
+                                @Html.Raw(@item.Text)
+                                <a href="/News/@item.PageID" class="btn-ftf-dtp-52">بیشتر بخوانید</a>
                             </div>
 
             }

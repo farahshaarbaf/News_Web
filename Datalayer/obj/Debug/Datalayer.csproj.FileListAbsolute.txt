@@ -10,3 +10,5 @@ E:\EndProject\New_Web\Datalayer\bin\Debug\EntityFramework.xml
 E:\EndProject\New_Web\Datalayer\bin\Debug\EntityFramework.SqlServer.xml
 E:\EndProject\New_Web\Datalayer\obj\Debug\Datalayer.Migrations.InitialDatabace.resources
 E:\EndProject\New_Web\Datalayer\obj\Debug\Datalayer.csproj.GenerateResource.Cache
+E:\EndProject\New_Web\Datalayer\bin\Debug\System.Web.Mvc.dll
+E:\EndProject\New_Web\Datalayer\bin\Debug\System.Web.Mvc.xml

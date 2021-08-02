@@ -79,3 +79,14 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
+
+@section scripts
+{
+    <script src="~/Content/ckeditor/ckeditor.js"></script>
+    <script src="~/Content/ckeditor/adapters/jquery.js"></script>
+    <script>
+                $(function () {
+                    $('#Text').ckeditor();
+                });
+    </script>
+}

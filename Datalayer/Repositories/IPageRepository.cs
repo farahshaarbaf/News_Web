@@ -35,8 +35,8 @@ namespace Datalayer
 
 
         IEnumerable<Page> FooterGallery(int take = 9);
-       
 
+        IEnumerable<Page> SearchPage(string search);
 
 
 

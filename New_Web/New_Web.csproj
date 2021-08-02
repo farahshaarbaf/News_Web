@@ -212,6 +212,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -228,6 +229,19 @@
     <Content Include="Content\bootstrap-rtl.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\ckeditor\adapters\jquery.js" />
+    <Content Include="Content\ckeditor\build-config.js" />
+    <Content Include="Content\ckeditor\CHANGES.html" />
+    <Content Include="Content\ckeditor\ckeditor.asp" />
+    <Content Include="Content\ckeditor\ckeditor.js" />
+    <Content Include="Content\ckeditor\ckeditor_basic.js" />
+    <Content Include="Content\ckeditor\ckeditor_basic_source.js" />
+    <Content Include="Content\ckeditor\ckeditor_source.js" />
+    <Content Include="Content\ckeditor\config.js" />
+    <Content Include="Content\ckeditor\contents.css" />
+    <Content Include="Content\ckeditor\INSTALL.html" />
+    <Content Include="Content\ckeditor\LICENSE.html" />
+    <Content Include="Content\ckeditor\styles.js" />
     <Content Include="Content\contact.html" />
     <Content Include="Content\css\animate.min.css" />
     <Content Include="Content\css\bootstrap-rtl.min.css" />
@@ -275,6 +289,7 @@
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\gallery-style-1.html" />
     <Content Include="Content\gallery-style-2.html" />
+    <Content Include="Content\img\1.png" />
     <Content Include="Content\img\404.png" />
     <Content Include="Content\img\author.jpg" />
     <Content Include="Content\img\banner\banner1.jpg" />
@@ -644,6 +659,7 @@
     <Content Include="Content\index5.html" />
     <Content Include="Content\index6.html" />
     <Content Include="Content\index7.html" />
+    <Content Include="Content\jquery-1.10.2.min.js" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\js\isotope.pkgd.min.js" />
     <Content Include="Content\js\jquery-2.2.4.min.js" />
@@ -806,6 +822,11 @@
     <Content Include="Content\fonts\yekan-400.woff" />
     <Content Include="Content\fonts\yekan-400.woff2" />
     <Content Include="Content\php\mail.php" />
+    <Content Include="Content\ckeditor\.htaccess" />
+    <Content Include="Content\ckeditor\CHANGES.md" />
+    <Content Include="Content\ckeditor\ckeditor.pack" />
+    <Content Include="Content\ckeditor\LICENSE.md" />
+    <Content Include="Content\ckeditor\README.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -819,7 +840,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -869,15 +892,26 @@
     <Content Include="Views\Home\NewNews.cshtml" />
     <Content Include="Views\Home\FavoriteColumn.cshtml" />
     <Content Include="Views\Home\NormalPost.cshtml" />
-    <Content Include="Views\Home\ShowPageByGroupId.cshtml" />
     <Content Include="Views\Home\Sport.cshtml" />
     <Content Include="Views\Home\syasi.cshtml" />
     <Content Include="Views\Home\eghtesad.cshtml" />
     <Content Include="Views\Home\honari.cshtml" />
+    <Content Include="Views\Home\ShowComments.cshtml" />
+    <Content Include="Views\Home\ShowNews.cshtml" />
+    <Content Include="Views\Search\Index.cshtml" />
+    <Content Include="Views\Home\EndBoxofmain.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Content\ckeditor\images\" />
+    <Folder Include="Content\ckeditor\lang\" />
+    <Folder Include="Content\ckeditor\plugins\" />
+    <Folder Include="Content\ckeditor\samples\" />
+    <Folder Include="Content\ckeditor\skins\" />
+    <Folder Include="Content\ckeditor\themes\" />
+    <Folder Include="Content\ckeditor\_samples\" />
+    <Folder Include="Content\ckeditor\_source\" />
     <Folder Include="PageImages\" />
   </ItemGroup>
   <ItemGroup>
